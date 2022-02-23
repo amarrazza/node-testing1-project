@@ -8,7 +8,13 @@
  */
 function trimProperties(obj) {
   // ✨ implement
+  return Object.keys(obj).forEach(k => obj.k)
 }
+
+console.log(trimProperties({
+  name: 'austin   ',
+  lastName: '   marrazza  '
+}))
 
 /**
  * [Exercise 2] trimPropertiesMutation trims in place the properties of an object
